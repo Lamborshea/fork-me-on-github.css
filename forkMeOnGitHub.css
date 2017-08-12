@@ -1,9 +1,24 @@
 @charset "UTF-8";
 
+/* 
+*   Author: lamborshea
+*   GitHub: www.github.com/lamborshea
+*   License: none
+*/
+
 @media screen and (min-width:768px) {
-    #forkMeOnGitHub>a{
+    #forkMeOnGitHub {
+        display: block;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    #forkMeOnGitHub > a{
         display: inline-block;
-        width:200px;
+        width: 200px;
         font: 400 16px/1.5 menlo,Verdana,Helvetica,"Helvetica Neue",sans-serif;
         color: #eee;
         background-color: #121621;
@@ -35,14 +50,6 @@
     }
     #forkMeOnGitHub a::after { 
         bottom:1px;
-        right: 0;
-    }
-    #forkMeOnGitHub {
-        display: block;
-        height: 300px;
-        width: 300px;
-        position: absolute;
-        top: 0;
         right: 0;
     }
 }
