@@ -24,6 +24,7 @@ just like the this:
 ## Feature
 
 - Designed by CSS
+- Responsive: when screen width is lower than 768px, the `Fork me on GitHub` ribbon won't display.
 
 ## ToDoList
 
