@@ -20,12 +20,13 @@
         position: absolute;
         top: 0;
         right: 0;
+        overflow: hidden;
     }
     
     #forkMeOnGitHub > a{
         display: inline-block;
         width: 200px;
-        font: 400 16px/1.5 menlo,Verdana,Helvetica,"Helvetica Neue",sans-serif;
+        font: 400 16px/1.5 menlo,Verdana,Helvetica,"Helvetica Neue",Arial,sans-serif;
         color: #eee;
         background-color: #121621;
         text-decoration: none;
