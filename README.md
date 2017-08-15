@@ -18,7 +18,7 @@ just like the this:
 </head>
 <body>
     <span id="forkMeOnGitHub">
-        <a href="www.github.com/lamborshea">Fork me on GitHub</a>
+        <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
     </span>
 </body>
 ```
