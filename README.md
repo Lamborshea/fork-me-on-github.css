@@ -6,11 +6,11 @@ Design 'GitHub Ribbons ' by CSS
 
 ## Usage
 
-1. add `<link rel="stylesheet" href="./forkMeOnGitHub.css">` in your `HTML` file head.
+1. add `<link rel="stylesheet" href="path of forkMeOnGitHub.css">` in your `HTML` file head.
 1. add `<span>` tag with Id name is `forkMeOnGitHub`.
 1. add `<a>` tag in `<span>` tag with href which is you GitHub Link and content is `Fork me on GitHub`.
 
-just like the this:
+Just like the this:
 
 ```HTML
 <head>
@@ -25,7 +25,7 @@ just like the this:
 
 ## Feature
 
-- Designed by CSS
+- Designed by CSS entirely.
 - Responsive: when screen width is lower than 768px, the `Fork me on GitHub` ribbon won't display.
 
 ## ToDoList
