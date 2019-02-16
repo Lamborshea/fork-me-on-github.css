@@ -17,11 +17,46 @@ Just like the this:
     <link rel="stylesheet" href="./forkMeOnGitHub.css">
 </head>
 <body>
-    <span id="forkMeOnGitHub">
+    <span class="fork-me-on-github">
+        <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
+    </span>
+
+    <!-- red theme -->
+    <span class="fork-me-on-github-red">
+        <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
+    </span>
+
+    <!-- blue theme -->
+    <span class="fork-me-on-github-blue">
+        <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
+    </span>
+
+    <!-- yellow theme -->
+    <span class="fork-me-on-github-yellow">
+        <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
+    </span>
+
+    <!-- white theme -->
+    <span class="fork-me-on-github-white">
         <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
     </span>
 </body>
 ```
+
+default theme
+![default theme](http://qiniu.xienanbo.com/fork-me-on-github.jpg)
+
+red theme
+![default theme](http://qiniu.xienanbo.com/fork-me-on-github-red.jpg)
+
+blue theme
+![default theme](http://qiniu.xienanbo.com/fork-me-on-github-blue.jpg)
+
+yellow theme
+![default theme](http://qiniu.xienanbo.com/fork-me-on-github-yellow.jpg)
+
+white theme
+![default theme](http://qiniu.xienanbo.com/fork-me-on-github-white.jpg)
 
 ## Feature
 

@@ -1,0 +1,44 @@
+@import "./variables";
+.containerPositionMixin() {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 99;
+  height: 200px;
+  width: 300px;
+  font-size: @defaultSize;
+}
+
+.linkPositionMixin() {
+  display: inline-block;
+  width: 200px;
+  font: 400 16px/1.5 menlo, Verdana, Helvetica, "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  padding: 6px 48px;
+  top: 48px;
+  right: -88px;
+  transform: rotate(45deg);
+}
+
+.lineStyleMixin(@color, @degree) {
+  &::before,
+  &::after {
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 1px;
+    background: lighten(@color, @degree)
+  }
+  &::before {
+    top: 1px;
+    left: 0;
+  }
+  &::after {
+    bottom: 1px;
+    right: 0;
+  }
+}

@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*
+*   Author: lamborshea
+*   GitHub: www.github.com/lamborshea
+*   License: ISC
+*/
+
+@import "./variables";
+@import "./mixins";
+.fork-me-on-github {
+  .containerPositionMixin();
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width:768px) {
+    display: block;
+  }
+  &-red {
+    .containerPositionMixin();
+    a {
+      .linkPositionMixin();
+      .lineStyleMixin(@red, 25%);
+      color: @white;
+      background-color: @red;
+    }
+  }
+  &-blue {
+    .containerPositionMixin();
+    a {
+      .linkPositionMixin();
+      .lineStyleMixin(@blue, 55%);
+      color: @white;
+      background-color: @blue;
+    }
+  }
+  &-yellow {
+    .containerPositionMixin();
+    a {
+      .linkPositionMixin();
+      .lineStyleMixin(@yellow, 25%);
+      color: @white;
+      background-color: @yellow;
+    }
+  }
+  &-white {
+    .containerPositionMixin();
+    a {
+      .linkPositionMixin();
+      .lineStyleMixin(@black, 0);
+      color: @black;
+      background-color: @white;
+    }
+  }
+  & a {
+    .linkPositionMixin();
+    .lineStyleMixin(@black, 65%);
+    color: @white;
+    background-color: @black;
+  }
+}

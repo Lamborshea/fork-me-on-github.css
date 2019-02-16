@@ -1,0 +1,42 @@
+{
+  "name": "forkmeongithub-css",
+  "version": "1.0.0",
+  "description": "fork me on github css tool",
+  "main": "index.css",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lamborshea/forkMeOnGitHub.css.git"
+  },
+  "keywords": [
+    "forkmeongithub"
+  ],
+  "author": "LamborShea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lamborshea/forkMeOnGitHub.css/issues"
+  },
+  "homepage": "https://github.com/Lamborshea/forkMeOnGitHub.css#readme",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "cssnano": "^4.1.10",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "stylelint": "^9.10.1",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dashboard": "^3.0.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
