@@ -10,6 +10,14 @@ Design 'GitHub Ribbons ' by CSS
 1. add `<span>` tag with Id name is `forkMeOnGitHub`.
 1. add `<a>` tag in `<span>` tag with href which is you GitHub Link and content is `Fork me on GitHub`.
 
+or
+
+```javascript
+npm install fork-me-on-github.css
+import "fork-me-on-github.css";
+
+```
+
 Just like the this:
 
 ```HTML
