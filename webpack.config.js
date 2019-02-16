@@ -51,7 +51,7 @@ module.exports = {
       filename: "index.html"
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].css",
+      filename: "fork-me-on-github.css",
       chunkFilename: "[id].css"
     }),
     new StyleLintPlugin({

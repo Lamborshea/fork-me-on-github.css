@@ -1,8 +1,8 @@
-# forkMeOnGitHub.css
+# fork-me-on-github.css
 
 Design 'GitHub Ribbons ' by CSS
 
-![ Fork me on GitHub](http://qiniu.xienanbo.com/fork-me-on-github.jpg)
+![ Fork me on GitHub](http://qiniu.xienanbo.com/fork-me-on-github-black.jpg)
 
 ## Usage
 
@@ -14,9 +14,10 @@ Just like the this:
 
 ```HTML
 <head>
-    <link rel="stylesheet" href="./forkMeOnGitHub.css">
+    <link rel="stylesheet" href="path/to/fork-me-on-github.css">
 </head>
 <body>
+    <!-- default theme -->
     <span class="fork-me-on-github">
         <a href="https://github.com/lamborshea/lamborshea">Fork me on GitHub</a>
     </span>
@@ -44,7 +45,7 @@ Just like the this:
 ```
 
 default theme
-![default theme](http://qiniu.xienanbo.com/fork-me-on-github.jpg)
+![default theme](http://qiniu.xienanbo.com/fork-me-on-github-black.jpg)
 
 red theme
 ![default theme](http://qiniu.xienanbo.com/fork-me-on-github-red.jpg)

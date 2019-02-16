@@ -1,8 +1,8 @@
 {
-  "name": "forkmeongithub-css",
+  "name": "fork-me-on-github.css",
   "version": "1.0.0",
   "description": "fork me on github css tool",
-  "main": "index.css",
+  "main": "dist/fork-me-on-github.css",
   "scripts": {
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lamborshea/forkMeOnGitHub.css.git"
+    "url": "git+https://github.com/Lamborshea/fork-me-on-github.css"
   },
   "keywords": [
     "forkmeongithub"
@@ -18,9 +18,9 @@
   "author": "LamborShea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lamborshea/forkMeOnGitHub.css/issues"
+    "url": "https://github.com/Lamborshea/fork-me-on-github.css.css/issues"
   },
-  "homepage": "https://github.com/Lamborshea/forkMeOnGitHub.css#readme",
+  "homepage": "https://github.com/Lamborshea/fork-me-on-github.css.css#readme",
   "devDependencies": {
     "css-loader": "^2.1.0",
     "cssnano": "^4.1.10",
@@ -38,5 +38,10 @@
     "webpack-cli": "^3.2.3",
     "webpack-dashboard": "^3.0.0",
     "webpack-dev-server": "^3.1.14"
-  }
+  },
+  "browserslist": [
+    "last 2 version",
+    "not dead",
+    "IE >= 9"
+  ]
 }
