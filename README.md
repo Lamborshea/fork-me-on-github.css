@@ -2,7 +2,7 @@
 
 Design 'GitHub Ribbons ' by CSS
 
-![ Fork me on GitHub](http://outfexujk.bkt.clouddn.com/forkMeOnGitHub.png)
+![ Fork me on GitHub](http://qiniu.xienanbo.com/fork-me-on-github.jpg)
 
 ## Usage
 
@@ -65,5 +65,5 @@ white theme
 
 ## ToDoList
 
-1. add position options class "left/right".
-1. add theme "red green yellow gray'.
+- [ ] add position options class "left/right".
+- [x] add theme "red green yellow gray'.
